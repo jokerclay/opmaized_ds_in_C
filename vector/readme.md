@@ -1,3 +1,4 @@
+# CODE
 ```C
 #include <stdio.h>
 #include <stdlib.h>
@@ -239,3 +240,54 @@ int main() {
 }
 
 ```
+
+
+# RES
+
+```txt
+==> Init a vector size of 10 ...
+10 
+0 
+==> Print the content in the vector...
+
+[]
+
+==> Inserting value 83	 to  vector at 0 
+==> Inserting value 86	 to  vector at 1 
+==> Inserting value 77	 to  vector at 2 
+==> Inserting value 15	 to  vector at 3 
+==> Inserting value 93	 to  vector at 4 
+==> Inserting value 35	 to  vector at 5 
+==> Inserting value 86	 to  vector at 6 
+==> Inserting value 92	 to  vector at 7 
+==> Inserting value 49	 to  vector at 8 
+==> Inserting value 21	 to  vector at 9 
+==> Inserting value 6969	 to  vector at 10 
+==> Sccuessly expand vector size to 20 
+==> Print the content in the vector...
+
+[83, 86, 77, 15, 93, 35, 86, 92, 49, 21, 6969, ]
+
+==> Print the front of the vector...
+
+[83, ]
+
+==> Print the back of the vector...
+
+[6969, ]
+
+==> Print the value at 5 in the vector...
+
+[93, ]
+
+==> Print the content in the vector...
+
+[83, 86, 77, 15, 93, 35, 86, 92, 49, 21, 6969, ]
+
+==> Erasing value at 5 in the vector
+==> value has been eraseed!
+==> Print the content in the vector...
+
+[83, 86, 77, 15, 35, 86, 92, 49, 21, 6969, ]
+
+==> Cleared a vector !
