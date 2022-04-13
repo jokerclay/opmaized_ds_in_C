@@ -176,7 +176,7 @@ int erase(LinkedList *l, int position) {
 
     p->next = q;
 
-    l->length += 1;
+    l->length -= 1;
 
     return 1;
 }
